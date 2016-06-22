@@ -21,6 +21,7 @@ char *tem="";
 /*Use your own apikey and deviceID to replace the following variables*/
 String apikey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 const char* deviceID="xxxxxxxxxxx";
+
 const char* server = "www.linksprite.io";
 WiFiClient client;
 char * float2str(float val, int precision, char *buf);
@@ -134,7 +135,7 @@ void UpdateToLinkSpriteIO()
            postStr +="\"params\":";
            postStr +="{";
            
-           postStr +="\"Pressure\":\"";
+           postStr +="\"pressure\":\"";
            itoa(pressure,tem,10); 
            postStr +=tem;
            postStr +="\",";
@@ -232,7 +233,7 @@ void loop()
     backlightOff();   
     diffentime = 0;
   }
-  if(updatetime>3600000) //update to LinkSprite IO time : 1 hour = 3600 S  
+  if(updatetime>60000) //update to LinkSprite IO time : 60s  
   {
     UpdateToLinkSpriteIO();
     //clearLCD(); 
