@@ -103,13 +103,13 @@ a. Register to or sign in [LinkSpite.io](www.linksprite.io)
 ![](images/config1.png)
 
 * Click the button **configure WiFi**
-* Select your WiFi AP which you want to connect and enter your WiFi password.
-* If connecting failed, you can go to the same website to configure it again.
+* Select your WiFi AP which you want to connect and enter your WiFi password
+* If connecting failed, you can go to the same website to configure it again
 
 ![](images/lcd1.png)
 
 * Short press the button on the weather station and it will turn on the backlight of LCD
-* Long press the button and it will change the display information.
+* Long press the button and it will change the display information
 
 ![](images/lcd2.png)
 ![](images/lcd3.png)
