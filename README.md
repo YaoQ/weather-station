@@ -49,7 +49,7 @@ LinkSprite weather station is one kind of LinkSprite IoT kit which is powered by
 ![](images/p11.png)
 
 ### 2. Access to LinkSpriteIO
-a. Register to or sign in [LinkSpite.io](www.linksprite.io)
+a. Register to or sign in **www.linksprite.io**
 * - Go to **My devices --> Create DIY device**
 
 ![](images/io0.png)
