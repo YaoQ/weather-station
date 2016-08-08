@@ -118,6 +118,41 @@ a. Register to or sign in **www.linksprite.io**
 
 ![](images/io5.png)
 
+### 5. Use APP to access Weather station
+We has developed an Android APP especially for Weather station. We can use it to check the environment data sent from Weather station. The following section will introduce how to use this APP.
+
+#### a. Install Android APP
+
+- Download the APK file from the [github](https://github.com/YaoQ/weather-station/tree/master/APP) and install it.
+
+#### b. Login LinkSpriteIO
+
+- Please enter your Email and your password, then click the **SIGN IN** button
+
+  ![123](images/app1.png)
+
+
+#### c.Go to device list
+
+- This page will show the weather station device that you created before.
+- Just click this device to check the current data.
+
+![](images/app2.png)
+
+
+#### d. Show the current data
+
+- Click each data on the page, then it will show historical data.
+
+![](images/app3.png) 
+![](images/app4.png) 
+![](images/app5.png)
+
+#### e. Show the historical data
+
+![](images/app6.png)
+
+
 
 ## Reference
 1. [github repository of weather station](https://github.com/YaoQ/weather-station)
