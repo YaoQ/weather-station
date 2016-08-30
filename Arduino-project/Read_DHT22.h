@@ -38,7 +38,7 @@ void read_dht22_data()
   //f = dht.readTemperature(true);
   // Check if any reads failed and exit early (to try again).
   //if ( isnan(h) || isnan(t) || isnan(f) ) 
-   if ( isnan(now_h) || isnan(now_t)) 
+   if ( std::isnan(now_h) || std::isnan(now_t)) 
   {
     Serial.println("Failed to read from DHT sensor!");
     return;
